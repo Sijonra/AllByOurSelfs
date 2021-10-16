@@ -1,0 +1,84 @@
+body{
+    background-color:rgb(235, 235, 235);
+}
+
+.wrapper{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    vertical-align: middle;
+}
+
+h1,p{
+    padding: 0;
+    margin: 0;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 2px;
+    width: 30vw;
+    height: 20vw;
+    margin: 0 auto;
+}
+
+.login-form__title{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.login-form__login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.login-form__password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__label{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.btn-primary{
+    align-self: center;
+    width: 35%;
+    height: 40px;
+    background-color: rgb(54, 111, 175);
+    border-radius: 4px;
+    transition: .2s;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus{
+    background-color: rgb(29, 69, 114);
+}
+
+#password, #login{
+    border-color: rgb(19, 40, 63);
+    border-radius: 4px;
+    width: 50%;
+    height: 24px;
+}
+
+#password:active, #password:focus{
+    box-shadow: turquoise;
+}
+
+.logout-button{
+    width: 400px;
+}
